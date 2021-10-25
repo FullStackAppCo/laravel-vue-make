@@ -1,22 +1,21 @@
 {
-  "name": "jobyh/laravel-vue-make",
+  "name": "fsac/laravel-vue-make",
   "description": "Artisan command to generate Vue components",
   "keywords": [
     "laravel",
     "vue",
-    "artisan",
-    "generator"
+    "artisan"
   ],
   "license": "MIT",
   "authors": [
     {
       "name": "Joby Harding",
-      "email": "joby@jobyharding.com"
+      "email": "code@fullstackapp.co"
     }
   ],
   "autoload": {
     "psr-4": {
-      "JobyH\\VueMake\\": "src"
+      "FullStackAppCo\\VueMake\\": "src"
     }
   },
   "minimum-stability": "dev",
@@ -30,7 +29,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "JobyH\\VueMake\\Support\\CommandsProvider"
+        "FullStackAppCo\\VueMake\\Support\\CommandsProvider"
       ]
     }
   },

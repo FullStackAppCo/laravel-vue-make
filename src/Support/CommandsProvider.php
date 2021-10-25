@@ -1,9 +1,9 @@
 <?php
 
-namespace JobyH\VueMake\Support;
+namespace FullStackAppCo\VueMake\Support;
 
 use Illuminate\Support\ServiceProvider;
-use JobyH\VueMake\Console\Commands\VueComponentCommand;
+use FullStackAppCo\VueMake\Console\Commands\VueComponentCommand;
 
 class CommandsProvider extends ServiceProvider
 {

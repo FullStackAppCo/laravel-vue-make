@@ -1,5 +1,5 @@
 # laravel-vue-make
-[![Build Status](https://travis-ci.com/jobyh/laravel-vue-make.svg?branch=main)](https://travis-ci.com/jobyh/laravel-vue-make)
+[![Build Status](https://travis-ci.com/fsac/laravel-vue-make.svg?branch=main)](https://travis-ci.com/fsac/laravel-vue-make)
 
 Artisan generator for Vue component files. Supports Laravel 8, 7 &amp; 6.
 
@@ -14,7 +14,7 @@ access to helps keep things consistent.
 
 ```
 % cd /path/to/laravel/project
-% composer require --dev jobyh/laravel-vue-make
+% composer require --dev fsac/laravel-vue-make
 ```
 
 ### Customise Stubs

@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\File;
 use Orchestra\Testbench\TestCase;
 use Illuminate\Filesystem\Filesystem;
 use Mockery\MockInterface;
-use JobyH\VueMake\Support\CommandsProvider;
+use FullStackAppCo\VueMake\Support\CommandsProvider;
 
 class VueComponentCommandTest extends TestCase {
 
