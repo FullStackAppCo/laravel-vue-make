@@ -1,11 +1,11 @@
 <?php
 
-namespace FullStackAppCo\VueMake\Support;
+namespace FullStackAppCo\VueMake;
 
-use Illuminate\Support\ServiceProvider;
 use FullStackAppCo\VueMake\Console\Commands\VueComponentCommand;
+use Illuminate\Support\ServiceProvider as BaseProvider;
 
-class CommandsProvider extends ServiceProvider
+class ServiceProvider extends BaseProvider
 {
 
     public static function stubs()
@@ -28,7 +28,7 @@ class CommandsProvider extends ServiceProvider
         $publishes = [];
 
         foreach (static::stubs() as $stub) {
-            $publishes[__DIR__ . "/../../stubs/{$stub}"] = base_path("stubs/{$stub}");
+            $publishes[__DIR__ . "/../stubs/{$stub}"] = base_path("stubs/{$stub}");
         }
 
         $this->publishes($publishes, 'vue-stub');

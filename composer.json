@@ -29,7 +29,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "FullStackAppCo\\VueMake\\Support\\CommandsProvider"
+        "FullStackAppCo\\VueMake\\ServiceProvider"
       ]
     }
   },
