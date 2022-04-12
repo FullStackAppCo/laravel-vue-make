@@ -1,6 +1,12 @@
-# laravel-vue-make
+# Laravel Vue Make
 ![Build Status](https://github.com/FullStackAppCo/laravel-vue-make/actions/workflows/tests.yml/badge.svg)
 
-Artisan generator for Vue component files. Supports Laravel 8, 7 &amp; 6.
+`artisan make:vue` your Vue components. Gnar.
 
 [Read the docs](https://fullstackapp.co/docs/laravel-vue-make)
+
+## Support
+| Laravel | Laravel Vue Make |
+|---------|------------------|
+| 9, 8    | 2                |
+|8, 7, 6  | 1                |
