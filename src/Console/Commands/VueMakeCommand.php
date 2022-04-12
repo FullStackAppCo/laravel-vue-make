@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\App;
 
-class VueComponentCommand extends Command
+class VueMakeCommand extends Command
 {
     /**
      * The name and signature of the console command.

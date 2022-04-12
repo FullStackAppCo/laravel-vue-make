@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\File;
 use Mockery\MockInterface;
 use Orchestra\Testbench\TestCase;
 
-class VueComponentCommandTest extends TestCase {
+class VueMakeCommandTest extends TestCase {
 
     protected function getPackageProviders($app)
     {

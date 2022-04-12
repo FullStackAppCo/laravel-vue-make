@@ -2,7 +2,7 @@
 
 namespace FullStackAppCo\VueMake;
 
-use FullStackAppCo\VueMake\Console\Commands\VueComponentCommand;
+use FullStackAppCo\VueMake\Console\Commands\VueMakeCommand;
 use Illuminate\Support\ServiceProvider as BaseProvider;
 
 class ServiceProvider extends BaseProvider
@@ -22,7 +22,7 @@ class ServiceProvider extends BaseProvider
         }
 
         $this->commands([
-            VueComponentCommand::class,
+            VueMakeCommand::class,
         ]);
 
         $publishes = [];
